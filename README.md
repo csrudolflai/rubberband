@@ -1,34 +1,8 @@
 # rubberband
 
-## Project setup
-```
-npm install
-```
+CRUD UI for Elasticsearch. Goals:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Good looking
+- Make it easy for non-technical folks to audit and clean the data manually
+- Clean and no assumptions, so that you can customize this without too much hassle
+- Single page app that's easily hosted on S3 or Netlify and can connect to a simple ES api anywhere, including localhost.
